@@ -5,8 +5,8 @@ class GameShop:
         self.games = [
             Game("The Legend of Zelda", 59.99),
             Game("Super Mario Odyssey", 49.99),
-            Game("Minecraft", 19.99),
-            Game("Fortnite", 0.00),  # Assuming Fortnite is free
+            Game("Real Minecraft", 19.99),
+            Game("Free Fortnite", 0.00),
             Game("Cyberpunk 2077", 39.99)
         ]
         self.cart = []
