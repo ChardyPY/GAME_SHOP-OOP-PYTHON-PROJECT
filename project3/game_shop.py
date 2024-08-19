@@ -35,4 +35,4 @@ class GameShop:
             for game, quantity in self.cart:
                 print(f"{quantity} x {game.name} - ${game.price * quantity:.2f}")
             total = self.calculate_total()
-            print(f"Total cost: ${total:.2f}")
+            print(f"The Total Cost is ${total:.2f}")
